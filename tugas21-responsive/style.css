@@ -1,0 +1,121 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.all-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+   margin-right: 0px;
+}
+.card1{
+    background-color: white;
+    padding: 20px;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.card1 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+.judul-card1{
+   display: flex;
+   padding-left: 5px;
+}
+.judul-card1 p{
+  padding-left: 125px;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.all-card span{
+    font-size: 16px;
+    color: gray;
+}
+.card2{
+    background-color: white;
+    padding: 20px;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.card2 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+.judul-card2{
+   display: flex;
+   padding-left: 5px;
+}
+.judul-card2 p{
+  padding-left: 125px;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.all-card span{
+    font-size: 16px;
+    color: gray;
+}
+.card3{
+    background-color: white;
+    padding: 20px;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.card3 img{
+    width: 420px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+.judul-card3{
+   display: flex;
+   padding-left: 5px;
+}
+.judul-card3 p{
+  padding-left: 125px;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.all-card span{
+    font-size: 16px;
+    color: gray;
+}
+.card1:hover, .card2:hover, .card3:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+@media (max-width: 1200px) {
+    .all-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1, .card2, .card3 {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .card1 img, .card2 img, .card3 img {
+        width: 300px;
+        height: 150px;
+    }
+}
+@media (max-width: 350px) {
+    .card1 img, .card2 img, .card3 img {
+        width: 250px;
+        height: 120px;
+    }
+}
+@media (max-width: 300px) {
+    .card1 img, .card2 img, .card3 img {
+        width: 200px;
+        height: 100px;
+    }
+}
